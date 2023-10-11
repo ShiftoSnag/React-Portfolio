@@ -1,0 +1,30 @@
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #555;
+  color: rgb(102, 218, 154);
+}
+
+h3 {
+  font-size: 40px;
+  color: #333;
+  margin: 0;
+}
+
+.graph-container {
+  margin-top: 40px;
+  padding: 20px;
+  position: relative;
+}

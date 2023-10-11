@@ -1,0 +1,42 @@
+.nav-list {
+  justify-content: center;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  background-color: transparent;
+  margin-right: 10px;
+  transition: background-color 0.5s;
+}
+
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.299);
+  color: #333;
+}
+
+@media (max-width: 400px) {
+  .nav-list {
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+  }
+}
+
+@media (min-width: 401px) {
+  .nav-list {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+  }
+}
